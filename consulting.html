@@ -1,32 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Consulting Services | Chilli AI</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulting | ChilliAI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <h1>Chilli AI</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="consulting.html">Consulting</a></li>
-        <li><a href="solutions.html">Solutions</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+<body class="bg-slate-50 text-slate-900 font-['Inter']">
+
+    <nav class="flex items-center justify-between px-8 py-6 bg-white border-b border-slate-200">
+        <div class="text-2xl font-bold tracking-tight text-slate-900">Chilli<span class="text-red-600">AI</span></div>
+        <div class="space-x-8 font-medium text-slate-600">
+            <a href="index.html" class="hover:text-red-600 transition">Home</a>
+            <a href="solutions.html" class="hover:text-red-600 transition">Solutions</a>
+            <a href="consulting.html" class="text-red-600">Consulting</a>
+            <a href="about.html" class="hover:text-red-600 transition">About</a>
+            <a href="contact.html" class="px-5 py-2 bg-slate-900 text-white rounded-full hover:bg-red-600 transition">Contact</a>
+        </div>
     </nav>
-  </header>
 
-  <main class="container">
-    <h2>Consulting Services</h2>
-    <p>We provide strategic advice, architecture planning, and implementation support across the data lifecycle—from collection to insight.</p>
-  </main>
+    <section class="py-20 px-8">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center">Our Technical Expertise</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="border-l-4 border-red-600 pl-8 py-4">
+                    <h3 class="text-2xl font-bold mb-4">MLOps & Cloud Architecture</h3>
+                    <p class="text-slate-600 mb-6">Expertise in syncing Databricks with Microsoft Fabric and managing Azure-based data catalogs. We ensure your data is clean, accessible, and ready for model training at scale.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded text-sm font-semibold">PySpark</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded text-sm font-semibold">Microsoft Fabric</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded text-sm font-semibold">Azure Databricks</span>
+                    </div>
+                </div>
 
-  <footer>
-    <p>© 2025 Chilli AI Pty Ltd.</p>
-  </footer>
+                <div class="border-l-4 border-red-600 pl-8 py-4">
+                    <h3 class="text-2xl font-bold mb-4">Predictive Modeling</h3>
+                    <p class="text-slate-600 mb-6">Specializing in H2O.ai frameworks and Python-based ML pipelines. From rebuilding home loan models to deploying BERT-driven risk assessments.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded text-sm font-semibold">H2O.ai</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded text-sm font-semibold">BERT Embeddings</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded text-sm font-semibold">AWS SageMaker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-20 px-8 border-t border-slate-100">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to scale your AI operations?</h2>
+            <p class="text-slate-600 mb-8 text-lg">Partner with Sydney-based experts who understand both the code and the bottom line.</p>
+            <a href="contact.html" class="inline-block px-10 py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition">Book a Strategic Review</a>
+        </div>
+    </section>
+
 </body>
 </html>
