@@ -1,32 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Data & Analytics Solutions | Chilli AI</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solutions | ChilliAI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <h1>Chilli AI</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="consulting.html">Consulting</a></li>
-        <li><a href="solutions.html">Solutions</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+<body class="bg-slate-50 text-slate-900 font-['Inter']">
+
+    <nav class="flex items-center justify-between px-8 py-6 bg-white border-b border-slate-200">
+        <div class="text-2xl font-bold tracking-tight text-slate-900">Chilli<span class="text-red-600">AI</span></div>
+        <div class="space-x-8 font-medium text-slate-600">
+            <a href="index.html" class="hover:text-red-600 transition">Home</a>
+            <a href="solutions.html" class="text-red-600">Solutions</a>
+            <a href="consulting.html" class="hover:text-red-600 transition">Consulting</a>
+            <a href="about.html" class="hover:text-red-600 transition">About</a>
+            <a href="contact.html" class="px-5 py-2 bg-slate-900 text-white rounded-full hover:bg-red-600 transition">Contact</a>
+        </div>
     </nav>
-  </header>
 
-  <main class="container">
-    <h2>Our Solutions</h2>
-    <p>We specialize in business intelligence, data warehousing, predictive analytics, and cloud-native data platforms.</p>
-  </main>
+    <section class="py-16 bg-slate-900 text-white px-8">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl font-bold mb-4">Enterprise AI Solutions</h1>
+            <p class="text-xl text-slate-400 leading-relaxed">Scaling machine learning from experimental notebooks to production-grade financial infrastructure.</p>
+        </div>
+    </section>
 
-  <footer>
-    <p>© 2025 Chilli AI Pty Ltd.</p>
-  </footer>
+    <section class="py-20 px-8">
+        <div class="max-w-6xl mx-auto space-y-24">
+            
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="md:w-1/2">
+                    <span class="text-red-600 font-bold uppercase tracking-widest text-sm">Financial Risk</span>
+                    <h2 class="text-3xl font-bold mt-2 mb-6">Automated Credit Risk Engines</h2>
+                    <p class="text-slate-600 mb-6">We deploy end-to-end pipelines that ingest raw transaction data, apply advanced BERT-based embeddings, and output real-time default probabilities. Our focus is on high-accuracy models that satisfy both business growth and regulatory requirements.</p>
+                    <ul class="space-y-3 text-slate-700 font-medium">
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Transactional NLP Embeddings</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Automated Feature Engineering</li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2 bg-slate-200 aspect-video rounded-2xl flex items-center justify-center text-slate-400 italic">
+                    [Architecture Diagram Placeholder]
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row-reverse gap-12 items-center">
+                <div class="md:w-1/2">
+                    <span class="text-red-600 font-bold uppercase tracking-widest text-sm">Revenue Management</span>
+                    <h2 class="text-3xl font-bold mt-2 mb-6">Profitability & Pricing Intelligence</h2>
+                    <p class="text-slate-600 mb-6">Optimizing margins through price sensitivity analysis. Our solutions have delivered multi-million dollar profit increases by identifying the optimal balance between customer retention and pricing strategy.</p>
+                    <ul class="space-y-3 text-slate-700 font-medium">
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Elasticity Modeling</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg> Strategic Margin Review</li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2 bg-slate-200 aspect-video rounded-2xl flex items-center justify-center text-slate-400 italic">
+                    [Data Visualization Placeholder]
+                </div>
+            </div>
+
+        </div>
+    </section>
+
 </body>
 </html>
